@@ -1,0 +1,14 @@
+{
+  "name": "web-3.0",
+  "version": "1.0.0",
+  "description": "web 3.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "monkila",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.19.1"
+  }
+}
