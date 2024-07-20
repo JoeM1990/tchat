@@ -1,11 +1,9 @@
 const hre = require("hardhat");
 
-
 async function main() {
 
   const Contract = await hre.ethers.getContractFactory("Tchat");
   const tchat = await Contract.deploy();
-
 
   await tchat.deployed();
   console.log("Tchat deployed to:", tchat.address);
